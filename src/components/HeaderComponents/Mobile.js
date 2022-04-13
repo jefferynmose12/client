@@ -13,9 +13,9 @@ const Mobile = ( { mode } ) => {
         <GiHamburgerMenu className='ml-auto text-2xl text-yellow-600' onClick={()=> setOpen(!open)} />
         <div className={` absolute top-28 w-full ${ open ? "left-0 duration-500" : "-left-full duration-500"}`} >
           <div className={"mx-7 py-7 flex flex-col items-center bg-gray-100 rounded-lg tracking-wider " + ( mode ? 'bg-gray-600 ' : null)}>
-            <a href='#contact' className='transition duration-500 ease-in hover:text-yellow-600'>CONTACT ME</a>
-            <a href='#work' className='my-5 transition duration-500 ease-in hover:text-yellow-600'>MY WORKS</a>
-            <a href='#about' className='transition duration-500 ease-in hover:text-yellow-600'>ABOUT ME</a>
+            <a href='#contact' className='transition duration-500 ease-in hover:text-yellow-600' onClick={()=> setOpen(false)}>CONTACT ME</a>
+            <a href='#work' className='my-5 transition duration-500 ease-in hover:text-yellow-600' onClick={()=> setOpen(false)}>MY WORKS</a>
+            <a href='#about' className='transition duration-500 ease-in hover:text-yellow-600' onClick={()=> setOpen(false)}>ABOUT ME</a>
           </div>
         </div>
     </div>

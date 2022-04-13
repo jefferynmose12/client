@@ -16,7 +16,7 @@ function Footer() {
           <div className='mt-14'>
             <div className='flex items-center'>
               <FcCallback className='text-blue-400' />
-              <p className='ml-4'>+234 8172 604 667</p>
+              <p className='ml-4'>+234 817 260 4667</p>
             </div>
             <div className='mt-10 flex items-center'>
               <SiGmail className='text-blue-400' />

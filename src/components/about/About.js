@@ -16,9 +16,9 @@ const About = ( { mode } ) => {
           I love to create fast, intuitive, responsive and dynamic designs and implement highly interactive user interfaces for web applications. 
           Create and integrate APIs to implement functionality in web applications.
         </p>
-        <div className='lg:pt-5 xl:pt-10'>
+        <div className='pt-3 lg:pt-5 xl:pt-10'>
           <h2 className='text-2xl text-yellow-600 font-bold tracking-wider'>SKILLS:</h2>
-          <div className='py-4 flex gap-5 flex-wrap font-medium text-white'>
+          <div className='py-4 flex flex-wrap font-medium text-white'>
             <Skill skill='React' />
             <Skill skill='HTML' />
             <Skill skill='CSS' />

@@ -6,9 +6,9 @@ import { BsSunFill } from 'react-icons/bs';
 
 const intro = ( { mode, setMode }) => {
   return (
-    <div className={"relative pt-60 md:pt-80 pb-24 px-2 md:px-10 lg:px-28 xl:px-44 bg-white flex flex-col gap-10 items-center justify-center " + (mode ? 'bg-gray-800 ' : null)}>
+    <div className={"relative pt-60 md:pt-80 pb-24 px-2 md:px-10 lg:px-28 xl:px-44 bg-white flex flex-col items-center justify-center " + (mode ? 'bg-gray-800 ' : null)}>
       <h1 className={"text-3xl lg:text-5xl font-semibold tracking-widest " + (mode ? 'text-white' : null) }>Hello! I’m<span className='pl-2 md:pl-4 lg:pl-6 text-yellow-600'>Jeffery.</span></h1>
-      <p className={"md:w-3/4 2xl:w-2/3 text-center tracking-wide " + (mode ? 'text-white' : null) }>
+      <p className={"my-10 md:w-3/4 2xl:w-2/3 text-center tracking-wide " + (mode ? 'text-white' : null) }>
           A creative front-end developer with a vast experience of building web applications with JavaScript, 
           React.Js, Node.Js, BootStrap, Tailwind CSS and a few other cool libraries.
       </p>
