@@ -11,26 +11,31 @@ export const products = [
     },
     {
         id: 3,
+        img: "webflow",
+        link: "https://jn-suites.webflow.io"
+    },
+    {
+        id: 4,
         img: "joblisting",
         link: "https://jefferynmose12.github.io/job-listing-app"
     },
     {
-        id: 4,
+        id: 5,
         img: "portfolio",
         link: "#"
     },
     {
-        id: 5,
+        id: 6,
         img: "manage",
         link: "https://jefferynmose12.github.io/manage-landing-page/"
     },
     {
-        id: 6,
+        id: 7,
         img: "integrate",
         link: "https://jefferynmose12.github.io/text-integration/"
     },
     {
-        id: 7,
+        id: 8,
         img: "rspgame",
         link: "https://jefferynmose12.github.io/rock-scissors-paper-game/"
     },

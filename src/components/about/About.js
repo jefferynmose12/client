@@ -24,6 +24,8 @@ const About = ( { mode } ) => {
             <Skill skill='CSS' />
             <Skill skill='TAILWIND CSS' />
             <Skill skill='JAVASCRIPT' />
+            <Skill skill='WEBFLOW' />
+            <Skill skill='REDUX' />
             <Skill skill='GIT' />
             <Skill skill='TEAMWORK' />
           </div>
