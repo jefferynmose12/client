@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/client/static/css/main.6d68ffff.css",
-    "main.js": "/client/static/js/main.33c7702d.js",
+    "main.js": "/client/static/js/main.a98f34a5.js",
     "static/js/787.c4e7f8f9.chunk.js": "/client/static/js/787.c4e7f8f9.chunk.js",
     "static/media/countriesapi.png": "/client/static/media/countriesapi.657373130f1a7d002e88.png",
     "static/media/webflow.png": "/client/static/media/webflow.3a731359f78dddbd952d.png",
@@ -11,16 +11,17 @@
     "static/media/gaged.png": "/client/static/media/gaged.0ae64bf748fdd51fe533.png",
     "static/media/portfolio.png": "/client/static/media/portfolio.e1bd13b23e4ca9cc4b89.png",
     "static/media/rspgame.png": "/client/static/media/rspgame.518a9af45a4e2c8b6b45.png",
+    "static/media/bookmark.png": "/client/static/media/bookmark.156def1f4e340ea57ff8.png",
     "static/media/manage.png": "/client/static/media/manage.188b17ed4d920da5e326.png",
     "static/media/joblisting.png": "/client/static/media/joblisting.3d57ee233f2081b2b5d4.png",
     "static/media/galaxy.svg": "/client/static/media/galaxy.7595d6ca72f1b04b2af0d88f3eed2921.svg",
     "index.html": "/client/index.html",
     "main.6d68ffff.css.map": "/client/static/css/main.6d68ffff.css.map",
-    "main.33c7702d.js.map": "/client/static/js/main.33c7702d.js.map",
+    "main.a98f34a5.js.map": "/client/static/js/main.a98f34a5.js.map",
     "787.c4e7f8f9.chunk.js.map": "/client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d68ffff.css",
-    "static/js/main.33c7702d.js"
+    "static/js/main.a98f34a5.js"
   ]
 }
