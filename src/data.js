@@ -26,16 +26,21 @@ export const products = [
     },
     {
         id: 6,
+        img: "bookmark",
+        link: "https://jefferynmose12.github.io/bookmark-landing-page/"
+    },
+    {
+        id: 7,
         img: "manage",
         link: "https://jefferynmose12.github.io/manage-landing-page/"
     },
     {
-        id: 7,
+        id: 8,
         img: "integrate",
         link: "https://jefferynmose12.github.io/text-integration/"
     },
     {
-        id: 8,
+        id: 9,
         img: "rspgame",
         link: "https://jefferynmose12.github.io/rock-scissors-paper-game/"
     },
