@@ -7,14 +7,14 @@ import About from './about/About'
 import Footer from './footer/Footer'
 
 const LandingPage = () => {
-    const [mode, setMode] = useState(false);
+    
   return (
     <div className='mx-auto'>
-        <Header mode={mode} />
-        <Intro mode={mode} setMode={setMode} />
-        <About mode={mode} />
-        <Projects mode={mode} />
-        <Contributions mode={mode} />
+        <Header  />
+        <Intro />
+        <About />
+        <Projects />
+        <Contributions />
         <Footer />
     </div>
   )

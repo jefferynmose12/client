@@ -1,11 +1,13 @@
 import LandingPage from "./components/LandingPage";
-
+import StoreProvider from "./context/StoreProvider";
 
 function App() {
   return (
-    <div>
-      <LandingPage />
-    </div>
+    <>
+      <StoreProvider>
+        <LandingPage />
+      </StoreProvider>
+    </>
   );
 }
 
