@@ -4,9 +4,30 @@ import galaxy from "../images/galaxy.svg";
 import { BsMoonFill } from "react-icons/bs";
 import { BsSunFill } from "react-icons/bs";
 import { useStoreContext } from "../hook/useStoreContext";
+import { TypewriterEffectSmooth } from "./ui/design";
 
 const Intro = () => {
   const { mode, setMode } = useStoreContext();
+
+  const words = [
+    {
+      text: "Hello!",
+      className: `text-3xl lg:text-5xl font-semibold tracking-widest ${
+        mode ? "text-white" : null
+      }`,
+    },
+    {
+      text: "I’m",
+      className: `text-3xl lg:text-5xl font-semibold tracking-widest ${
+        mode ? "text-white" : null
+      }`,
+    },
+    {
+      text: "Jeffery.",
+      className: `text-3xl lg:text-5xl font-semibold tracking-widest text-yellow-600`,
+    },
+  ];
+
   return (
     <div
       className={
@@ -14,23 +35,16 @@ const Intro = () => {
         (mode ? "bg-gray-800 " : null)
       }
     >
-      <h1
-        className={
-          "text-3xl lg:text-5xl font-semibold tracking-widest " +
-          (mode ? "text-white" : null)
-        }
-      >
-        Hello! I’m
-        <span className="pl-2 md:pl-4 lg:pl-6 text-yellow-600">Jeffery.</span>
-      </h1>
+      <TypewriterEffectSmooth words={words} />
       <p
         className={
-          "my-10 md:w-3/4 2xl:w-1/2 text-center tracking-wide " +
+          "mb-10 md:w-3/4 2xl:w-1/2 text-center tracking-wide md:text-lg " +
           (mode ? "text-white" : null)
         }
       >
-        A creative front-end developer with a vast experience of
-        building web applications with React.Js, React Native, Next.js. Using JavaScript / TypeScript.
+        A creative front-end developer with a vast experience of building web
+        applications with React.Js, React Native, Next.js. Using JavaScript /
+        TypeScript.
       </p>
       <a href="#work">
         <button

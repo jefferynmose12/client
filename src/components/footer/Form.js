@@ -12,10 +12,9 @@ const Form = () => {
     emailjs.sendForm('service_om26zua', 'template_07534hf', form.current, 'IweMYt_Y9gNVESrqD')
       .than((result) => {
         setDone(!done)
-        console.log(result.text);
-        console.log(done);
+        console.log(result);
       }, (error) => {
-        console.log(error.text);
+        console.log(error);
       }
     );
   };

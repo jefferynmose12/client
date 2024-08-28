@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import Contributions from './contributions-components/Contributions'
+import React from 'react'
 import Header from './HeaderComponents/Header'
 import Intro from './Intro'
 import Projects from './project-components/Projects'
@@ -14,7 +13,7 @@ const LandingPage = () => {
         <Intro />
         <About />
         <Projects />
-        <Contributions />
+        {/* <Contributions /> */}
         <Footer />
     </div>
   )
