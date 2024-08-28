@@ -19,7 +19,7 @@ const EachProject = ({img, link}) => {
             <div className='h-2 w-2 rounded-full bg-red-500'/>
         </div>
         <a href={link} target="_blank" rel='noreferrer'>
-          <img src={require (`../../images/${img}.png`)} alt={img} className='overflow-hidden w-100 transition transition duration-1000 ease-in hover:-translate-y-2/3' />
+          <img src={require (`../../images/${img}.png`)} alt={img} className='overflow-hidden w-100 transition duration-1000 ease-in hover:-translate-y-2/3' />
         </a>
     </div>
   )
