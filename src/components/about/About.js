@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../images/me.jpg";
+import me from "../../images/jeff.jpeg";
 import Skill from "./Skill";
 import { useStoreContext } from "../../hook/useStoreContext";
 
